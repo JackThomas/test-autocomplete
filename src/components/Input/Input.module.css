@@ -1,0 +1,38 @@
+.wrapper {
+    position: relative;
+}
+
+.input {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    transition: box-shadow 0.1s;
+    border: 1px solid #d1d5db;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(246, 246, 246, 1), 0 0 0 0 rgba(100, 161, 255, 0.5);
+}
+
+.input:focus {
+    box-shadow: 0 0 0 2px rgba(246, 246, 246, 1),
+        0 0 0 4px rgba(100, 161, 255, 0.5);
+}
+
+.input__loader {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0.5rem;
+    bottom: 0;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    pointer-events: none;
+}

@@ -1,0 +1,20 @@
+.results {
+    overflow: auto;
+    position: absolute;
+    top: calc(100% + 2px);
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    border: 1px solid #d1d5db;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    background-color: #ffffff;
+}
+
+.results__content {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 50;
+}
